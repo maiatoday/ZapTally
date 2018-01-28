@@ -30,5 +30,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        textTemperature.text = "26"
+        textZapCount.text = "26"
+        textHumidity.text = "26"
     }
 }
